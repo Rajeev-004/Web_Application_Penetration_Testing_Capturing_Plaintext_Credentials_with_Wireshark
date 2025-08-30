@@ -28,17 +28,17 @@ To focus on login requests, apply the following filter in Wireshark:
 This filter ensures only HTTP POST requests (commonly used in login forms) are displayed.
 
 2. Visit the Login Page and Enter Credentials
-Open a browser (Firefox/Chrome).
-Go to:
+    Open a browser (Firefox/Chrome).
+    Go to:
 
--- http://testphp.vulnweb.com/login.php --
-Enter sample credentials:
+    -- http://testphp.vulnweb.com/login.php --
+    Enter sample credentials:
 
-Username: test
+    Username: test
 
-Password: 12354
+    Password: 12354
 
-Click Login.
+    Click Login.
 
 3. Terminate the Capture Session
 Once the login attempt is completed, stop the capture in Wireshark.
