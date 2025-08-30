@@ -76,4 +76,8 @@ This project demonstrates how login credentials can be intercepted from a vulner
     ![Screenshot](https://github.com/Rajeev-004/Web_Application_Penetration_Testing_Capturing_Plaintext_Credentials_with_Wireshark/blob/main/images/Output.png)
 
 
- As shown above, the username and password (uname=test, pass=12354) are clearly visible since the site does not use encryption (HTTPS).
+     As shown above, the username and password (uname=test, pass=12354) are clearly visible since the site does not use encryption (HTTPS).
+
+# Conclusion
+
+This project clearly demonstrates how easily attackers can intercept sensitive information when web applications transmit data over insecure HTTP connections. By using Wireshark to capture traffic from the vulnerable site testphp.vulnweb.com, we were able to expose login credentials in plaintext, proving the real-world danger of unencrypted communication. The outcome emphasizes the absolute necessity of adopting HTTPS/TLS encryption, secure authentication mechanisms, and modern security best practices to protect users from credential theft, account compromise, and large-scale data breaches. In short, this project highlights a simple but powerful truth: without encryption, there is no security.
