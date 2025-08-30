@@ -4,6 +4,6 @@ This project demonstrates how login credentials can be intercepted using Wiresha
 # About Wireshark
 
 Wireshark is a network protocol analyzer that allows capturing and inspecting packets traveling across a network in real time.
-    It supports hundreds of protocols (HTTP, TCP, DNS, etc.).
-    Security researchers use it to detect vulnerabilities, analyze suspicious traffic, and troubleshoot networks.
-    In penetration testing, it can reveal sensitive data (like usernames and passwords) when websites use insecure HTTP connections.
+    1. It supports hundreds of protocols (HTTP, TCP, DNS, etc.).
+    2. Security researchers use it to detect vulnerabilities, analyze suspicious traffic, and troubleshoot        networks.
+    3. In penetration testing, it can reveal sensitive data (like usernames and passwords) when websites use insecure HTTP connections.
