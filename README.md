@@ -16,8 +16,7 @@ This project demonstrates how login credentials can be intercepted from a vulner
 2. By capturing network traffic during a login attempt, we can clearly see the username and password in the packet data.
 3. This shows the risks of using insecure protocols and highlights the importance of HTTPS encryption.
 
-# Procedure
-# Steps 
+# Procedure Steps 
 1. Launch Wireshark and Start Capturing
 
     Open Wireshark in Kali Linux (or any OS with Wireshark installed).
