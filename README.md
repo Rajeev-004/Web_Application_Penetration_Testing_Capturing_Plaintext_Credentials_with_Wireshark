@@ -28,10 +28,12 @@ To focus on login requests, apply the following filter in Wireshark:
 This filter ensures only HTTP POST requests (commonly used in login forms) are displayed.
 
 2. Visit the Login Page and Enter Credentials
-    Open a browser (Firefox/Chrome).
-    Go to:
 
-    -- http://testphp.vulnweb.com/login.php --
+    Open a browser (Firefox/Chrome).
+
+    Go to:
+     http://testphp.vulnweb.com/login.php 
+
     Enter sample credentials:
 
     Username: test
@@ -41,22 +43,26 @@ This filter ensures only HTTP POST requests (commonly used in login forms) are d
     Click Login.
 
 3. Terminate the Capture Session
-Once the login attempt is completed, stop the capture in Wireshark.
-Stopping at this stage avoids collecting unnecessary traffic and keeps the dataset focused only on the login attempt.
+
+    Once the login attempt is completed, stop the capture in Wireshark.
+
+    Stopping at this stage avoids collecting unnecessary traffic and keeps the dataset focused only on the login attempt.
 
 4. Analyze the Captured Packets
-Look for the HTTP POST request made to /login.php.
-Expand the packet details in Wireshark → Hypertext Transfer Protocol section.
-You will find the credentials in plaintext, for example:
+    Look for the HTTP POST request made to /login.php.
 
-POST /login.php HTTP/1.1
+    Expand the packet details in Wireshark → Hypertext Transfer Protocol section.
 
-Host: testphp.vulnweb.com
+    You will find the credentials in plaintext, for example:
 
-Content-Type: application/x-www-form-urlencoded
+            POST /login.php HTTP/1.1
 
-Content-Length: 27
+            Host: testphp.vulnweb.com
 
-uname=test&pass=12354&login=login
+            Content-Type: application/x-www-form-urlencoded
+
+            Content-Length: 27
+
+            uname=test&pass=12354&login=login
 
  As shown above, the username and password (uname=test, pass=12354) are clearly visible since the site does not use encryption (HTTPS).
