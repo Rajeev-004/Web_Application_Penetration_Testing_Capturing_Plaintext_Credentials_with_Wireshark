@@ -70,4 +70,7 @@ This project demonstrates how login credentials can be intercepted from a vulner
 
             uname=test&pass=12354&login=login
 
+            ![](image copy.png)
+
+
  As shown above, the username and password (uname=test, pass=12354) are clearly visible since the site does not use encryption (HTTPS).
