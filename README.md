@@ -19,12 +19,17 @@ This project demonstrates how login credentials can be intercepted from a vulner
 # Procedure
 # Steps 
 1. Launch Wireshark and Start Capturing
-Open Wireshark in Kali Linux (or any OS with Wireshark installed).
-Select the active network interface (e.g., eth0 for wired, wlan0 for Wi-Fi).
-Start capturing live traffic.
-To focus on login requests, apply the following filter in Wireshark:
 
---http.request.method == "POST"--
+    Open Wireshark in Kali Linux (or any OS with Wireshark installed).
+
+    Select the active network interface (e.g., eth0 for wired, wlan0 for Wi-Fi).
+
+    Start capturing live traffic.
+
+    To focus on login requests, apply the following filter in Wireshark:
+
+        http.request.method == "POST"
+
 This filter ensures only HTTP POST requests (commonly used in login forms) are displayed.
 
 2. Visit the Login Page and Enter Credentials
@@ -36,9 +41,9 @@ This filter ensures only HTTP POST requests (commonly used in login forms) are d
 
     Enter sample credentials:
 
-    Username: test
+            Username: test
 
-    Password: 12354
+            Password: 12354
 
     Click Login.
 
