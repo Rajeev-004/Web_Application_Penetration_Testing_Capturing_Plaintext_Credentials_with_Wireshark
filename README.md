@@ -47,7 +47,8 @@ This project demonstrates how login credentials can be intercepted from a vulner
 
     Click Login.
 
-    ![hello](images/Input.png)
+    ![Screenshot](https://github.com/Rajeev-004/Web_Application_Penetration_Testing_Capturing_Plaintext_Credentials_with_Wireshark/blob/main/images/Input.png)
+
 
 3. Terminate the Capture Session
 
