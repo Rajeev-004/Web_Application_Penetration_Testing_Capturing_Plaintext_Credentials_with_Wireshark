@@ -30,7 +30,7 @@ This project demonstrates how login credentials can be intercepted from a vulner
 
         http.request.method == "POST"
 
-This filter ensures only HTTP POST requests (commonly used in login forms) are displayed.
+    This filter ensures only HTTP POST requests (commonly used in login forms) are displayed.
 
 2. Visit the Login Page and Enter Credentials
 
