@@ -47,7 +47,7 @@ This project demonstrates how login credentials can be intercepted from a vulner
 
     Click Login.
 
-    ![](images/Input.png)
+    ![hello](images/Input.png)
 
 3. Terminate the Capture Session
 
