@@ -73,6 +73,7 @@ This project demonstrates how login credentials can be intercepted from a vulner
 
             uname=test&pass=12354&login=login
 
-    ![](images/Output.png)
+    ![Screenshot](https://github.com/Rajeev-004/Web_Application_Penetration_Testing_Capturing_Plaintext_Credentials_with_Wireshark/blob/main/images/Output.png)
+
 
  As shown above, the username and password (uname=test, pass=12354) are clearly visible since the site does not use encryption (HTTPS).
